@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font-family: Verdana;">Calculator</title>
+    <link rel="icon" href="calcul.png">
+    <link rel="stylesheet" href="calculatorstyle.css">
+</head>
+<body>
+    <div class="box">
+    <h1 style="font-family: Impact;color: greenyellow; opacity: 0.7;">CALCULATOR</h1>
+    <label for="num1">Enter number 1: </label>
+    <br>
+    <input type="number" name="number1" id="num1" placeholder="Number 1" class="input">
+    <br><br>
+    <label for="operation">Operation: </label>
+    <br>
+    <input type="text" name="operator" id="oprn" placeholder="Operation ( +, -, *, /)" class="input">
+    <br><br>
+    <label for="num2">Enter number 2: </label>
+    <br>
+    <input type="number" name="number2" id="num2" placeholder="Number 2" class="input">
+    <br><br>
+    <button onclick="calculate()" style="color: green; font-family: Impact; border-radius: 5px;
+     border: 2px solid gray;background-color: blanchedalmond; height: 40px; width: 120px;font-size: 112%;">
+        Calculate</button>
+    <p id="result"></p>
+    </div>
+    <script src="CalculatorFunction.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center; /*THIS DOES THE JOB*/
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    font-family: Verdana;
+    padding-top: 45px;
+}
+
+.box{
+    padding-top: 100px;
+    /* display: flex; */
+    text-align: center;
+    /* flex-direction: column; */
+    border: 5px solid gray;
+    height: 500px;
+    width: 600px;
+}
+
+.input{
+    height: 30px;
+    width: 150px;
+}
